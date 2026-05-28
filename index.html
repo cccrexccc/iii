@@ -6,17 +6,18 @@
         body {
             margin: 0;
             padding: 20px;
-            background: #ffffff;           /* White background */
+            background: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
         img {
-            max-width: 100%;
-            max-height: 90vh;
+            width: 80%;                    /* Shrinks GIF to 80% */
+            max-width: 1200px;             /* Prevents it from getting too big on large screens */
+            height: auto;
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow for better look */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
